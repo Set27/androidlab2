@@ -17,7 +17,7 @@ import com.example.rapida.R
 import com.example.rapida.databinding.TvShowLayoutAdapterBinding
 
 
-class   PopularAdapter(): PagingDataAdapter<Movie, PopularAdapter.ViewHolder>(DiffUtilCallBack()) {
+class PopularAdapter(): PagingDataAdapter<Movie, PopularAdapter.ViewHolder>(DiffUtilCallBack()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater

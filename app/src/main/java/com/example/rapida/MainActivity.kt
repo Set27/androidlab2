@@ -193,56 +193,5 @@ class MainActivity : AppCompatActivity() {
 
             setHasFixedSize(true)
         }
-
-        binding.rvTest1.apply {
-            adapter = popularAdapter
-            layoutManager = LinearLayoutManager(
-                this@MainActivity, LinearLayoutManager.HORIZONTAL,
-                false
-            )
-
-            setHasFixedSize(true)
-        }
-
-        binding.rvTest2.apply {
-            adapter = upcomingAdapter
-            layoutManager = LinearLayoutManager(
-                this@MainActivity, LinearLayoutManager.HORIZONTAL,
-                false
-            )
-
-            setHasFixedSize(true)
-        }
-
-        binding.rvTest3.apply {
-            adapter = nowPlayingAdapter
-            layoutManager = LinearLayoutManager(
-                this@MainActivity, LinearLayoutManager.HORIZONTAL,
-                false
-            )
-
-            setHasFixedSize(true)
-        }
-
-        binding.rvTest4.apply {
-            adapter = toprated
-            layoutManager = LinearLayoutManager(
-                this@MainActivity, LinearLayoutManager.HORIZONTAL,
-                false
-            )
-
-            setHasFixedSize(true)
-        }
-
-        binding.rvTest5.apply {
-            adapter = popularAdapter
-            layoutManager = LinearLayoutManager(
-                this@MainActivity, LinearLayoutManager.HORIZONTAL,
-                false
-            )
-
-            setHasFixedSize(true)
-        }
-
     }
 }
